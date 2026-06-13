@@ -1,0 +1,22 @@
+# Python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDEs and System files
+.vscode/
+.idea/
+.DS_Store
+
+# Data and Models
+# NOTE: Do NOT upload raw hackathon data (DataSet.csv) as it may be proprietary!
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# CatBoost logs
+catboost_info/
+
+models/*.pkl
